@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">番茄钟</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_new">新任务</string>
+    <string name="title_activity_settings">设置</string>
+
+
+    <string-array name="preference_show_as_list_entries">
+        <item>列表展示</item>
+        <item>网格展示</item>
+    </string-array>
+
+    <string-array name="preference_show_as_list_entries_values">
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+
+
+    <string name="about_text">Copyright © 2018 tomatoGroup.\nAll Rights Reserved.</string>
+    <string name="shortcut_disable_label">不可编辑</string>
+    <string name="shortcut_long_label">添加任务</string>
+    <string name="shortcut_short_label">添加任务</string>
+    <string name="app_label">番茄钟</string>
+    <string name="search_hint">搜索</string>
+    <string name="title_activity_list">任务</string>
+    <string name="title_activity_clock">ClockActivity</string>
+
+
+</resources>

@@ -1,0 +1,236 @@
+卷 软件 的文件夹 PATH 列表
+卷序列号为 000E-5EA1
+D:.
+│  AndroidManifest.xml
+│  tree.txt
+│  
+├─assets
+│      bg_autumn_tree-min.jpg
+│      bg_kites-min.png
+│      bg_lake-min.jpg
+│      bg_leaves-min.jpg
+│      bg_magnolia_trees-min.jpg
+│      bg_solda-min.jpg
+│      bg_tree-min.jpg
+│      bg_tulip-min.jpg
+│      
+├─java
+│  └─top
+│      └─littleTomato
+│          └─clock
+│              │  App.java
+│              │  
+│              ├─adpter
+│              │      ChooseDialogAdapter.java
+│              │      ChoosePriorityAdapter.java
+│              │      ListAdapter.java
+│              │      MainPageAdapter.java
+│              │      TaskAdapter.java
+│              │      
+│              ├─base
+│              │      BaseActivity.java
+│              │      BasePresenter.java
+│              │      BaseView.java
+│              │      
+│              ├─behaviour
+│              │      FabHideShowBehaviour.java
+│              │      
+│              ├─constant
+│              │      Constants.java
+│              │      
+│              ├─dagger
+│              │      ActivityComponent.java
+│              │      ActivityModule.java
+│              │      DataModule.java
+│              │      Injectable.java
+│              │      
+│              ├─data
+│              │      AlarmHelper.java
+│              │      BackupManager.java
+│              │      DataDao.java
+│              │      ImageFactory.java
+│              │      InstrumentHelper.java
+│              │      PageFactory.java
+│              │      
+│              ├─entities
+│              │      MainPageItem.java
+│              │      TaskDetailEntity.java
+│              │      TaskState.java
+│              │      
+│              ├─fragments
+│              │      PageFragment.java
+│              │      SettingsFragment.java
+│              │      
+│              ├─presenter
+│              │      AboutHolder.java
+│              │      AboutPresenter.java
+│              │      ListHolder.java
+│              │      ListPresenter.java
+│              │      MainHolder.java
+│              │      MainPresenter.java
+│              │      
+│              ├─receiver
+│              │      BootReceiver.java
+│              │      WidgetProvider.java
+│              │      
+│              ├─service
+│              │      NotifyService.java
+│              │      
+│              ├─utils
+│              │      DateUtils.java
+│              │      DensityUtil.java
+│              │      FileUtils.java
+│              │      FrescoImageLoader.java
+│              │      GlideImageLoader.java
+│              │      ImageLoader.java
+│              │      Preconditions.java
+│              │      PreferenceUtils.java
+│              │      SnackBarUtils.java
+│              │      
+│              └─views
+│                      AboutActivity.java
+│                      ChoosePaperColorDialog.java
+│                      ClockActivity.java
+│                      ClockView.java
+│                      FixedBottomSheetDialog.java
+│                      ListActivity.java
+│                      MainActivity.java
+│                      NewActivity.java
+│                      SettingsActivity.java
+│                      
+└─res
+    ├─drawable
+    │  │  action_choose_color.png
+    │  │  bg_mask_icon_task_item.xml
+    │  │  bg_trees.jpg
+    │  │  icon_mask.png
+    │  │  icon_red.png
+    │  │  icon_white.png
+    │  │  ic_finished.png
+    │  │  ic_info_black_24dp.xml
+    │  │  ic_notifications_black_24dp.xml
+    │  │  ic_no_result.png
+    │  │  ic_priority_1.xml
+    │  │  ic_sync_black_24dp.xml
+    │  │  status_mask.xml
+    │  │  white_button_bg.xml
+    │  │  widget_backgroud.xml
+    │  │  
+    │  └─.picasaoriginals
+    │          .picasa.ini
+    │          bg_trees.jpg
+    │          
+    ├─drawable-hdpi
+    │      ic_action_delete.png
+    │      ic_action_edit.png
+    │      ic_action_flag.png
+    │      ic_action_put_off.png
+    │      ic_add_white_48dp.png
+    │      ic_check_white_48dp.png
+    │      ic_close_white_48dp.png
+    │      ic_priority_2.xml
+    │      ic_priority_3.xml
+    │      ic_priority_4.xml
+    │      ic_priority_mask.xml
+    │      
+    ├─drawable-mdpi
+    │      ic_action_delete.png
+    │      ic_action_edit.png
+    │      ic_action_flag.png
+    │      ic_action_put_off.png
+    │      ic_add_white_48dp.png
+    │      ic_check_white_48dp.png
+    │      ic_close_white_48dp.png
+    │      
+    ├─drawable-xhdpi
+    │      ic_action_delete.png
+    │      ic_action_edit.png
+    │      ic_action_flag.png
+    │      ic_action_put_off.png
+    │      ic_add_white_48dp.png
+    │      ic_check_white_48dp.png
+    │      ic_close_white_48dp.png
+    │      
+    ├─drawable-xxhdpi
+    │      ic_action_delete.png
+    │      ic_action_edit.png
+    │      ic_action_flag.png
+    │      ic_action_put_off.png
+    │      ic_add_white_48dp.png
+    │      ic_check_white_48dp.png
+    │      ic_close_white_48dp.png
+    │      
+    ├─drawable-xxxhdpi
+    │      ic_add_white_48dp.png
+    │      ic_check_white_48dp.png
+    │      ic_close_white_48dp.png
+    │      
+    ├─layout
+    │      activity_about.xml
+    │      activity_clock.xml
+    │      activity_list.xml
+    │      activity_main.xml
+    │      activity_new.xml
+    │      activity_settings.xml
+    │      content_clock.xml
+    │      content_list.xml
+    │      content_main.xml
+    │      content_new.xml
+    │      content_settings.xml
+    │      dl_choose_paper_color.xml
+    │      dl_task_item_menu.xml
+    │      item_choose_paper_color.xml
+    │      item_choose_priority.xml
+    │      item_list.xml
+    │      page_fragment.xml
+    │      task_item.xml
+    │      widget_new_task.xml
+    │      
+    ├─layout-night
+    │      dl_task_item_menu.xml
+    │      
+    ├─menu
+    │      edit_menu.xml
+    │      menu_main.xml
+    │      
+    ├─mipmap-hdpi
+    │      icon.png
+    │      ic_launcher.png
+    │      
+    ├─mipmap-mdpi
+    │      ic_launcher.png
+    │      
+    ├─mipmap-xhdpi
+    │      ic_launcher.png
+    │      
+    ├─mipmap-xxhdpi
+    │      ic_launcher.png
+    │      
+    ├─mipmap-xxxhdpi
+    │      ic_launcher.png
+    │      
+    ├─values
+    │      colors.xml
+    │      dimens.xml
+    │      strings.xml
+    │      styles.xml
+    │      
+    ├─values-night
+    │      colors.xml
+    │      styles.xml
+    │      
+    ├─values-night-v21
+    │      styles.xml
+    │      
+    ├─values-v21
+    │      styles.xml
+    │      
+    ├─values-w820dp
+    │      dimens.xml
+    │      
+    └─xml
+            pref_general.xml
+            search.xml
+            shortcuts.xml
+            widget_provider_info.xml
+            
