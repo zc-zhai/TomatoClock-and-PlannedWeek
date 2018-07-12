@@ -9,7 +9,7 @@ School of Cyber Security, Shanghai Jiao Tong University
 * Pomodoro Technique
 * Focus Matrix
 ## User Group
-Anyone who has the demand of improving work efficiency and staying focused.
+* Anyone who has the demand of improving work efficiency and staying focused.
 ## Summary
 This project is intended to develop a software with transaction management and tomato-based work method.<br>
 
